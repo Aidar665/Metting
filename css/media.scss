@@ -1,0 +1,226 @@
+@media only screen and (max-width: 390px){
+
+    .container{
+        width: 100%;
+    }
+
+    .logo{
+        width: 72px;
+        margin: 0;
+        margin-top: 8px;
+        margin-left: -8px;
+    }
+
+    .menu{
+        display: none;
+    }
+    .button__clock{
+        display: none;
+    }
+    .title__section{
+        margin-left: 8px;
+        background: none;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        height: 252px;
+    }
+
+    .hero__title-section{
+        width: 100%;
+        font-size: 29px;
+        line-height: 28px;
+        margin-top: 42px;
+        margin-left: -21px;
+    }
+    .hero__title--desc{
+        margin-left: 3%;
+        width: 83%;
+        font-size: 15px;
+        line-height: 20px;
+        margin-top: 16px;
+    }
+
+    .btn--start--fot--free{
+        margin-left: 27%;
+        font-size: 14px;
+        line-height: 2px;
+        margin-top: 19px;
+        width: 34%;
+        padding: 18px 0px;
+    }
+
+    .inner__section{
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .inner__section:before{
+        margin-left: -7px;
+        display: block;
+        width: 100%;
+        height: 365px;
+        content: "";
+        background: url(../img/Group1457.png )  no-repeat 50% 50%;
+    }
+
+    .inner__text--image{
+    display: block;
+    }
+
+    .group14{
+        width: 66px;
+        height: 74px;
+    }
+
+    .group15{
+        margin-right: 65px;
+        width: 83px;
+        height: 75px;
+    }
+
+    .inner__section--title{
+        margin-top: 26px;
+        line-height: 30px;
+        font-size: 20px;
+        width: 309px;
+    margin-left: -2px;}
+
+    .inner__img--bloc{
+        margin-top: 12px;
+        margin-left: 76px;
+    }
+
+    .partners__item{
+        margin-top: 0;
+        margin-left: -13px;
+    }
+    
+    .parnters__img{
+        width: 76px;
+        height: 18px;
+    }
+    
+    .parnters__link{
+        width: 100px;
+    }
+
+    .partners{
+        margin-left: 10px;
+        margin-top:-27px;
+        flex-wrap: nowrap;
+    }
+
+    .partners__item:nth-last-child(1){
+        display: none;
+    }
+    .partners__item:nth-last-child(2){
+        display: none;
+    }
+
+    .parnters__link{
+        width: 50px;
+    }
+
+
+    .section__title--headline--title{
+        font-size: 22px;
+        width: 327px;
+        text-align: center;
+    }
+    
+
+    .headline{
+        margin-top: -30px;
+    }
+
+    .hedline__subtitle{
+        opacity: 0.6;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .benefits{
+        margin-left: 10px;
+        display: block;
+    }
+    
+    .benefit__title{
+        margin-top: 13px;
+        margin-left: 0;
+        font-size: 20px;
+    }
+
+    .benefit__desc{
+        margin-top: -6px;
+    }
+
+    .benefit__text--desc{
+        margin-left: -2px;
+        margin-top: -2px;
+    }
+
+    .benefit__icon{
+        width: 42px;
+    }
+    
+    .benefits__item {
+        margin-top: 12px;
+    }
+    
+    .benefits__item:nth-last-child(2) {
+        margin-top: 48px;
+        margin-left: -6px;
+        margin-right:0;
+    }
+
+    .benefits__item:last-child {
+        margin-left: -4px;
+        margin-top: 58px;
+    }
+
+    .benefit__text {
+        margin-left: 0; 
+    }
+
+    .burger{
+        display: block;
+        position: fixed; 
+        top:30px;
+        right: 8%;
+        height: 25px;
+        width: 40px;
+        cursor:pointer;
+        z-index: 15;
+        transition:all .4s;
+        
+        &__line{
+          width: 100%;
+          height: 2px;
+          position: absolute;
+          background-color: black;
+          top:0;
+          left: 0;
+          transition:all .4s;
+      
+          
+          &:nth-child(2){
+              left: 50%;
+              width: 50%;
+            top:50%;
+            transform:translateY(-50%);
+          }
+          
+          &:nth-child(3){
+            bottom:0;
+            top:initial;
+          }
+        }
+      }
+
+      
+
+    }

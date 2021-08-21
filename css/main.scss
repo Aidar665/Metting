@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+//breakpoints
+$phones:480px;
+@import "./layout";
+@import "./section";
+@import "./header";
+@import "./btn.scss";
+@import "./hero.scss";
+@import "./inner.scss";
+@import "./partners";
+@import "./headline";
+@import "./benefit";
+@import "./media";
+@import "./burger.scss";

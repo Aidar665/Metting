@@ -1,0 +1,25 @@
+.partners{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partners__item{
+    margin-top: 17px;
+    text-decoration: none;
+    display: flex;
+    width: 183px;
+    height: 100px;
+    align-items: center;
+    max-width: 157px;
+    margin-left: 31px;
+}
+
+
+
+.partners__item:nth-last-child(2){
+    margin-left: 71px;
+}
+
+.partners__item:nth-last-child(1){
+    margin-left: 62px;
+}

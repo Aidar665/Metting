@@ -1,0 +1,92 @@
+$containerWidth:1600px;
+$baseFontSize:18px;
+
+//breakpoints
+$phones:480px;
+// components
+
+
+
+.body{
+    font-family: Inter;
+    margin: 0;
+    color: #18216D;
+    line-height: 1.42;
+    position: relative;
+}
+
+.wrapper{
+    background: url(../img/Ellipse187.png) no-repeat;
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container{
+    max-width: 1200px;
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin-top: 0;
+    font-weight: normal;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.table{
+    border-collapse: collapse;
+}
+
+ul { list-style: none; 
+    font-family: Inter;
+    margin-block-start:0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.li{
+    font-family: Inter;
+    list-style-type: none;
+}
+
+
+.p{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    font-family: Inter;
+    text-decoration: none;
+    color: #18216D;
+}
+
+.img{
+    display: block;
+    max-width: 100%;
+}
+
+.maincontent{
+    background: url(../img/Ellipse13.png) no-repeat right center;
+    max-width: 1600px;
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}

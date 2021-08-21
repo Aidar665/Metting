@@ -1,0 +1,72 @@
+.btn{
+    font-family: Inter;
+    padding: 13px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    border-radius: 7px;
+    line-height: 22px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+}
+
+.button__clock{
+    margin-left:232px;
+    display: flex;
+}
+
+.btn--signin{
+    margin: 2px 31px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.btn--signin:hover{
+    color: #fff;
+    background:  #18216D;
+}
+
+.btn--Downlaod{
+    margin: 0px 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 25px;
+    color: #fff;
+    background: #18216D;
+}
+
+.btn--Downlaod:hover{
+    color: #18216D;
+    background: #fff;
+}
+
+.btn--start--fot--free{
+    color: #000;
+    padding: 16px 32px;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    background: #00ECD0;
+    width: 179px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+    margin-top: 21px;
+    margin-left: 14px;}
+
+.btn--start--fot--free:hover{
+    color: #fff;
+    background: #18216D;
+}
+
+.btn--start--fot--free:active{
+    color: black;
+    background: blue;
+}

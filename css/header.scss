@@ -1,0 +1,38 @@
+.header{
+    font-family: Inter;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#18216D ;
+}
+
+.hero{
+   color: #18216D;
+}
+
+
+.menu__list{
+    margin-left: 10px;
+ display: flex;
+ align-items: flex-start;
+}
+
+.menu__link{
+    text-decoration: none;
+    margin-right: 55px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #005FEC;
+}
+
+
+.hero__container{
+    max-width: 1600px;
+}
+
+.logo{
+    margin-left: 100px;
+}
